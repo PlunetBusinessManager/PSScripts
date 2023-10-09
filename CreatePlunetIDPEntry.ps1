@@ -7,6 +7,8 @@ using module ADFS
 #------------------------------------------------------------------------------------------------------------
 # Cmdlet for configuring Plunet SAML on an AD FS IDP
 # Author: Alexander Schüßler
+# Notes: This script lets Plunet make use of the E-Mailaddress as the login identifier
+# Other options are possible but require adjustment of the transform rules in the script below.
 #-------------------------------------------------------------------------------------------------------------
 
 #------------------------------------------------------------------------------------------------------------
