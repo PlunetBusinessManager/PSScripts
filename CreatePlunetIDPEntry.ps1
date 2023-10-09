@@ -9,6 +9,19 @@ using module ADFS
 # Author: Alexander Schüßler
 #-------------------------------------------------------------------------------------------------------------
 
+#------------------------------------------------------------------------------------------------------------
+# Sample Usage
+#
+#    Create-PlunetIDPEntry `
+#    -relyingPartyTrustName "Plunet SAML" `
+#    -serviceProviderBaseURL "https://plunet.companyname.com" `
+#    -trustPolicyNotes "This is SAML cofiguration for Plunet Business Manager." `
+#    -encryptionCertPath "C:\Certs for SAML\mysamlspcert.cer" `
+#    -signatureCertPath "C:\Certs for SAML\mysamlspcert.cer" 
+#------------------------------------------------------------------------------------------------------------
+
+
+
 
 function Create-PlunetIDPEntry
 {
